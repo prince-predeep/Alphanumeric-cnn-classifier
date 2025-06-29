@@ -30,6 +30,17 @@ Key steps and improvements:
 - **Classes**: 36 (0–9, A–Z after relabeling)
 - **Shape**: 28x28 grayscale pixels
 
+### 📥 Dataset Download
+Due to size constraints, the dataset is not included directly in the repository. 
+
+You can download the full preprocessed dataset (CSV format) from this Google Drive link:
+
+👉 **[Download dataset](https://your-google-drive-link-here)**
+
+After downloading, place it in the root folder of this project and rename it to `dataset.csv.txt` if needed.
+
+Alternatively, you can also find it under the [Releases](https://github.com/your-username/your-repo-name/releases) section of this repository.
+
 ---
 
 ## ⚙️ Requirements
@@ -45,7 +56,7 @@ pip install tensorflow numpy pandas matplotlib seaborn opencv-python
 ---
 
 ## 🛠️ How to Run
-1. **Prepare your dataset**: Place the `dataset.csv.txt` file in the correct directory.
+1. **Prepare your dataset**: Download the CSV and place it in the correct directory.
 2. **Train the model**: Run the `main.py` script to train and save your `.keras` model.
 3. **Predict from image**:
    - Save handwritten digit/letter images into the `/Captured image` folder.
@@ -69,8 +80,6 @@ pip install tensorflow numpy pandas matplotlib seaborn opencv-python
 ├── dataset.csv.txt
 ├── model
 │   └── cnn_digitrecog_36class.keras
-├── Captured image
-│   └── sample1.png ...
 ├── README.md
 └── main.py
 ```
