@@ -35,7 +35,7 @@ Due to size constraints, the dataset is not included directly in the repository.
 
 You can download the full preprocessed dataset (CSV format) from this Google Drive link:
 
-👉 **[Download dataset](https://your-google-drive-link-here)**
+👉 https://drive.google.com/file/d/1_qo8IBv_QBQmaKyjeyzoNDkGVbzkdJ__/view?usp=sharing
 
 After downloading, place it in the root folder of this project and rename it to `dataset.csv.txt` if needed.
 
